@@ -4,10 +4,13 @@ import logo from '../../../assets/logo/header-logo.png';
 
 const Header = () => {
     const menuBar = <>
-        <li><Link to='/'>Home</Link></li>
+        <li className='font-bold'><Link to='/'>Home</Link></li>
+        <li className='font-bold'><Link to='/'>Services</Link></li>
+        <li className='font-bold'><Link to='/'>Blog</Link></li>
+        <li className='font-bold'><Link to='/'>About Us</Link></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar mb-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -17,9 +20,9 @@ const Header = () => {
                         {menuBar}
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost normal-case text-xl">
+                <Link to='/' className="flex normal-case text-xl">
                     <img src={logo} alt="" />
-                    <h1 className='text-4xl ml-4'>PlumberBoy</h1>
+                    <h1 className='text-4xl ml-4 pt-4'>PlumberBoy</h1>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
