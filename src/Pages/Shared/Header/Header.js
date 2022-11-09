@@ -1,14 +1,34 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo/header-logo.png';
+import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 
 const Header = () => {
+
+    const { user, logOut } = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        logOut()
+            .then()
+            .catch()
+    }
+
     const menuBar = <>
         <li className='font-bold'><Link to='/'>Home</Link></li>
         <li className='font-bold'><Link to='/'>Services</Link></li>
         <li className='font-bold'><Link to='/'>Blog</Link></li>
-        <li className='font-bold'><Link to='/'>About Us</Link></li>
-        <li className='font-bold'><Link to='/login'>Login</Link></li>
+        {
+            user?.email ?
+                <>
+                    <li className='font-bold'><Link to='/reviews'>Reviews</Link></li>
+                    <li className='font-bold'>
+                        <button onClick={handleLogOut} className='btn-ghost'>Log Out</button>
+                    </li>
+                </>
+                :
+                <li className='font-bold'><Link to='/login'>Login</Link></li>
+
+        }
     </>
     return (
         <div className="navbar mb-5">
@@ -28,7 +48,7 @@ const Header = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
-                   {menuBar}
+                    {menuBar}
                 </ul>
             </div>
             <div className="navbar-end">
