@@ -1,157 +1,307 @@
 [
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "04",
-        "title": "Engine Oil Change",
-        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "title": "Best New Boiler Installation Services",
+        "img": "https://i.ibb.co/C8ZgF6F/plumbing-heating-boiler-installation-service-repair.jpg",
+        "price": "300.00",
+        "rating": "4.5",
+        "description": "Let’s face it, new boilers installation aren’t cheap. But they don’t need to cost the earth, either. When you use our service, you get the benefit of experienced and qualified engineers to complete the job. They’re tidy and efficient too. In fact, once your new boiler is installed and working, you’d be forgiven for thinking they’d never been there at all. (Except you’d have that shiny new boiler, of course.)We can advise you on the best model to get for your purposes, so you won’t be disappointed with the results. Additionally, we’ll recommend models that could help you save money on your heating bills. And no, there is never any obligation to take us up on the quote we’ll provide. The quote does stand though, which means you won’t get any nasty surprises when you pay.Call us today on 07796345453 if you’re in need of a new boiler. We’re here to help, and we’re available to fit any boiler throughout the London area.",
+        "author": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "written-title": "Best New Boiler Installation Services",
+                "details": "Let’s face it, new boilers installation aren’t cheap."
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Palash Ahmed",
+                "date": "09-11-2022"
             }
         ]
     },
     {
-        "_id": "635a0c0b64a6d231228942af",
         "service_id": "05",
-        "title": "Battery Charge",
-        "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "title": "Boiler Repair",
+        "img": "https://i.ibb.co/288yhrf/pl.jpg",
+        "price": "290.00",
+        "rating": "4.0",
+        "description": "We’ve built our business around you. We believe we should provide affordable prices for parts and service. After all, you’ll want your boiler back up and working again as quickly as possible, but you won’t want to go into debt to get it there.Our Gas Safe registered plumbers will inspect your boiler to determine what the problem is. They’ll then provide you with a quote you can rely on – a quote that will stand if you agree to go ahead with the work. We’ll get your boiler back to full working order again as quickly as we can, but rest assured we won’t rush and do a poor job. We’re here to make sure everything gets back to normal for you as quickly as possible.This can start today if you call 07796345453 to book an appointment and get a price for the work that needs doing. Most boiler repairs can be completed very easily and far more cheaply than many people realize. And if the worst happens and your boiler cannot be repaired for some reason, we’ll provide a quotation for a new installation. Just in case.",
+        "author": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "written-title": "Boiler Repair",
+                "details": "We’ve built our business around you"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Ishtiak Ahmed",
+                "date": "08-11-2022"
             }
         ]
     },
     {
-        "_id": "635b591a1dafe382a9da8c96",
         "service_id": "01",
-        "title": "Full car Repair",
-        "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
-        "price": "200.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "title": "Emergency Plumber in Ealing",
+        "img": "https://i.ibb.co/dtpPfJ1/222.jpg",
+        "price": "250.00",
+        "rating": "4.5",
+        "description": "Finding a good plumber in a place like Ealing is quite a challenge. For efficient and smooth distribution of gas and water regular and on-time maintenance is necessary to keep your pipes and fixtures in condition. This will help in good disposal of sewage and keep your surroundings clean without leakages. Plumbers in Ealing are hard to find but nothing is impossible if you search in the right direction.Firstly never ignore or postpone any maintenance and repair, this may lead to a bigger mess which can cost you much more time and money. Majority of people always are in search of good plumbers in Ealing both for regular maintenance and emergencies. There are only a few plumbing service providers which provide both the services. It’s very important to search for a professional service provider who responds on time and are very good at the services which they provide. The water supply plays a vital role in our lives though we don’t realize its importance until we face some problem. Any issue related to water should be addressed as fast as possible to get your life going.",
+        "author": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "written-title": "Emergency Plumber in Ealing",
+                "details": "Finding a good plumber in a place like Ealing is quite a challenge."
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Razeeb Ahmed",
+                "date": "05-11-2022"
             }
         ]
     },
     {
-        "_id": "635b5afc1dafe382a9da8c98",
         "service_id": "02",
-        "title": "Engine Repair",
-        "img": "https://i.ibb.co/5MvmD2g/88.jpg",
-        "price": "150.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "title": "Emergency Plumber in Fulham",
+        "img": "https://i.ibb.co/Qd7Smmx/444.jpg",
+        "price": "280.00",
+        "rating": "4.5",
+        "description": "Majority of people around trying to repair the plumbing problems on their own and fails drastically which paves the way to other major problems. This is why you will need a professional plumbing service provider to help you fix the things on time and prevent further damage..A professional plumbing person is the one who has good knowledge and a lot of practical skills to tackle the issue. Along with this, he must be good at using all the tools and materials and solve the problem in a minimal amount of time. A well-trained plumber in Fulham is capable to fix any leaking pipes in the basement, clogged toilets and also busted pipes in the basement which may ruin your furniture. When you hire a professional service provider, he will make sure that you get the best service at the earliest. The issue is solved from the root; so that you can take breathe. Along with plumbing services the company you choose must be good at fixing your boilers too. This helps you to get a single stop solution for all your plumbing needs.",
+        "author": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "written-title": "Emergency Plumber in Fulham",
+                "details": "Majority of people around trying to repair the plumbing problems"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Raju Ahmed",
+                "date": "07-11-2022"
             }
         ]
     },
     {
-        "_id": "635b5b691dafe382a9da8c99",
         "service_id": "03",
-        "title": "Automatic Services",
-        "img": "https://i.ibb.co/wh7t3N3/555.jpg",
-        "price": "30.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "title": "Emergency Plumber in Chiswick",
+        "img": "https://i.ibb.co/C8ZgF6F/plumbing-heating-boiler-installation-service-repair.jpg",
+        "price": "300.00",
+        "rating": "5.0",
+        "description": "Majority of people around trying to repair the plumbing problems on their own and fails drastically which paves the way to other major problems. This is why you will need a professional plumbing service provider to help you fix the things on time and prevent further damage..A professional plumbing person is the one who has good knowledge and a lot of practical skills to tackle the issue. Along with this, he must be good at using all the tools and materials and solve the problem in a minimal amount of time. A well-trained plumber in Chiswick is capable to fix any leaking pipes in the basement, clogged toilets and also busted pipes in the basement which may ruin your furniture. When you hire a professional service provider, he will make sure that you get the best service at the earliest. The issue is solved from the root; so that you can take breathe. Along with plumbing services the company you choose must be good at fixing your boilers too. This helps you to get a single stop solution for all your plumbing needs.",
+        "author": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "written-title": "Emergency Plumber in Chiswick",
+                "details": "Majority of people around trying to repair"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Sapon Ahmed",
+                "date": "10-11-2022"
             }
         ]
     },
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
-        "title": "Electrical System",
-        "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "title": "Emergency Plumber",
+        "img": "https://i.ibb.co/b1B3FWP/555.jpg",
+        "price": "230.00",
+        "rating": "5.0",
+        "description": "If you’ve got water leaking in your property, whether it’s coming through the ceiling or flooding your bathroom, turn off your water supply as quickly as you can. Once that’s done, call us on 07796345453 to find out how soon we can be with you.We always make emergencies our priority, because we know how stressful a genuine plumbing emergency can be. Even when the water supply is turned off, the water that’s already leaked could cause significant damage to your carpets, floors, and belongings. Once you’ve called us and you know we’re on our way, you can get on with minimizing the damage.",
+        "author": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "written-title": "Emergency Plumber",
+                "details": "If you’ve got water leaking in your property"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Kawser Ahmed",
+                "date": "09-11-2022"
+            }
+        ]
+    },
+    {
+        "service_id": "08",
+        "title": "High-Quality Plumbing Services That Are Built to Last",
+        "img": "https://i.ibb.co/ygv9Gty/123.webp",
+        "price": "500.00",
+        "rating": "4.5",
+        "description": "At PlumberBoy Plumbing, Heating & Air Conditioning, Inc., we pride ourselves on our ability to provide exactly what clients are looking for. We’re partnered with a number of reputable, professional companies that focus on construction, roofing, home remodeling, and a host of other similar services. Through this, we can offer our clients a full, comprehensive list of repair and installation options. If you’ve recently searched for ‘reputable plumbers near me,’ we hope you’ll see us as your top choice. Whether it’s necessary repairs or general plumbing services, we believe in going the extra mile for all of our customers. With Shepherd’s Plumbing, Heating & Air Conditioning, Inc., you’re in good hands. We provide a broad selection of plumbing services, ranging from simple faucet/toilet repairs to more complex replacement jobs—i.e., sewer main replacements, underslab sewer leaks, etc. Compared to other plumbing companies, we consider our list of services to be comprehensive. However, if in doubt, give us a call! We’re happy to answer any and all of your questions regarding your plumbing situation.",
+        "author": [
+            {
+                "written-title": "High-Quality Plumbing Services That Are Built to Last",
+                "details": "At PlumberBoy Plumbing, Heating & Air Conditioning, "
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Rubel Islam",
+                "date": "08-11-2022"
+            }
+        ]
+    },
+    {
+        "service_id": "10",
+        "title": "Quick, Convenient, and High-Quality Solutions to your Plumbing Concerns",
+        "img": "https://i.ibb.co/6F9nc2k/123456.webp",
+        "price": "200.00",
+        "rating": "3.5",
+        "description": " We’re not like other plumbing companies. Founded by a 3rd Generation Plumber, Shepherd’s Plumbing, Heating & Air Conditioning, Inc. relies on more than just practical and theoretical knowledge to get the job done. Our team is backed by 60 years’ worth of combined experience and an inherent love for our profession. If you’re looking for competent and capable plumbers, look no further.We provide a broad selection of plumbing services, ranging from simple faucet/toilet repairs to more complex replacement jobs—i.e., sewer main replacements, underslab sewer leaks, etc. Compared to other plumbing companies, we consider our list of services to be comprehensive. However, if in doubt, give us a call! We’re happy to answer any and all of your questions regarding your plumbing situation.",
+        "author": [
+            {
+                "written-title": "Quick, Convenient, and High-Quality Solutions to your Plumbing Concerns",
+                "details": "We’re not like other plumbing companies."
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Palash Ahmed",
+                "date": "10-11-2022"
+            }
+        ]
+    },
+    {
+        "service_id": "07",
+        "title": "Let The Professionals Handle Sewage Clean-Up",
+        "img": "https://i.ibb.co/BrNvGdN/sewage-clean-up.jpg",
+        "price": "80.00",
+        "rating": "3.5",
+        "description": "After a big rain, you never know what can happen. The build-up from all that rain can cause significant damage to your home or business. One of the most common problems from a big storm is sewage backup.Sewage backups are a common problem in any home. Regardless of how careful you are, you can still suffer a sewage backup. When this happens, you need to hire professionals to help clean up the mess.This blog will look at the benefits of hiring professionals to handle sewage clean-up.Sewage backups are a common problem in any home with a plumbing system. When a sewage backup occurs, it is usually because there is a blockage in the pipes that carry waste water away from the property. Various things could cause a blockage, including tree roots, grease, flood, and debris. When the blockage occurs, the wastewater has nowhere to go and begins to back up into the property. This can cause a significant problem, as it can contain harmful bacteria and viruses. You must act quickly when a sewage backup occurs. The longer the wastewater sits, the more chance there is of it causing harm. But how do you handle this mess? It would help if you had a professional plumber to handle the sewage clean-up. They will quickly identify the cause of the blockage and clear it, restoring the plumbing system to normal.",
+        "author": [
+            {
+                "written-title": "Let The Professionals Handle Sewage Clean-Up",
+                "details": "After a big rain, you never know what can happen."
+            },
+            {
+                "name": "Ariful Islam",
+                "date": "06-11-2022"
+            }
+        ]
+    },
+    {
+        "service_id": "09",
+        "title": "Hard Shower Filter: High Quality Water Technology",
+        "img": "https://i.ibb.co/5BCvqk8/hard-water-filter-for-shower.jpg",
+        "price": "290.00",
+        "rating": "4.5",
+        "description": "A Hard water filter for shower is an inexpensive and effective device, by means of which it is possible to neutralize excessive hardness of the water in the bathroom, as well as to clean it from biological and synthetic impurities. In addition, a reliable system of filtration of household water used for daily hygiene needs increases the service life of plumbing fixtures – taps, adapters, shower diffusers – many times over. Reducing the concentration of salts in tap water is a step toward improving the condition of skin, nails, and hair. Excessive water saturation with Mg2+ and Ca2+ components negatively affects human health. When water is naturally heated in the home, the damaging effects of salts are amplified, resulting in: burning and peeling of the skin;the preconditions for respiratory dysfunctionsrisk of allergic reactions, etc.Under the influence of hot water, chlorine is transformed into a gaseous substance that is not recommended for breathing. In addition, the penetration of chlorine-containing components in the skin contributes to severe dermatological diseases. Especially sensitive to chlorine: young children, the elderly, and pregnant women. Buying a shower filter means saving money on repairs of plumbing fixtures. Salt deposits that form on the surface of the faucet or shower head mesh clog the fine-caliber holes, resulting in an uneven, jerky, low-pressure water supply.",
+        "author": [
+            {
+                "written-title": "Hard Shower Filter: High Quality Water Technology",
+                "details": "A Hard water filter for shower is an inexpensive and effective device"
+            },
+            {
+                "name": "Emon Hossain",
+                "date": "11-11-2022"
+            }
+        ]
+    },
+    {
+        "service_id": "11",
+        "title": "A Guide To Fixing Common Plumbing Issues With Your Toilet",
+        "img": "https://i.ibb.co/FgdNjd5/common-plumbing-issues.jpg",
+        "price": "100.00",
+        "rating": "4.5",
+        "description": "Plumbing is not a simple task. However, as a homeowner, there are a few plumbing hacks you can learn so you may save money and quickly fix problems. This article discusses a list of typical plumbing issues and their solutions. It also discusses a list of must-have plumbing supplies by every homeowner.Here are a few common plumbing tools that are highly recommended for homeowners to must have: A plunger to unclog drains and clogged toilets.AA drain snake removes obstructions from your sink’s drainage. A hand auger is used to remove items from larger pipes that are trapped.A wrench for tightening or adjusting plumbing equipment such as faucets, toilet seats, and pipe connections. A pipe wrench with movable jaws for holding and rotating pipes. Thread seal tape is used to temporarily remedy leaks by sealing pipe connections. Pliers for grasping both little and large objects caught in pipes. A tape measure to accurately measure items for affordable repairs or replacements.",
+        "author": [
+            {
+                "written-title": "A Guide To Fixing Common Plumbing Issues With Your Toilet",
+                "details": "Plumbing is not a simple task. However, as a homeowner,"
+            },
+            {
+                "name": "Tasluva Akter",
+                "date": "09-11-2022"
+            }
+        ]
+    },
+    {
+        "service_id": "14",
+        "title": "A Plumber’s Guide To Buying A New Home",
+        "img": "https://i.ibb.co/vHNpMVS/plumbing-inspection.jpg",
+        "price": "50.00",
+        "rating": "3.5",
+        "description": "Buying a house is often a daunting investment. While you might remember to get the seal of approval from the building and pest inspectors, there is one important check that many home buyers miss. Just like you wouldn’t buy a car without inspecting the engine, you shouldn’t buy a home without knowing what state the plumbing system is in. Although some plumbing issues can be superficial, an unmaintained plumbing system can be the cause of a major headache later on. So, don’t get stuck in deep water and follow this simple plumbing checklist the next time you’re looking to buy a new home. A leaking tap is annoying, but you’d be surprised at how often they can be overlooked.Generally speaking, indoor water leaks are fairly inexpensive to fix, usually only needing a simple repair or replacement. However, the water damage to surrounding structures could become a bigger problem later on. That’s why, when inspecting a home, it is important to look out for key signs of water damage, be that: warped flooring, water-stained or bubbling walls, mould, or even cracks. The tap itself might be a quick fix, but these structural damages could have you dipping into your savings sooner than you’d like.",
+        "author": [
+            {
+                "written-title": "A Plumber’s Guide To Buying A New Home",
+                "details": "Buying a house is often a daunting investment. "
+            },
+            {
+                "name": "Sagor Ahmed",
+                "date": "04-11-2022"
+            }
+        ]
+    },
+    {
+        "service_id": "12",
+        "title": "Guide To Blocked Drain Cleaning: Identify, Unclog, Prevent",
+        "img": "https://i.ibb.co/FWgNPyT/blocked-sink-drain.jpg",
+        "price": "350.00",
+        "rating": "4.5",
+        "description": "You’re getting exhausted dealing with home sink, toilet, and shower problems. What could be the culprit of an overflowing toilet, flooded sink, and sluggish water fixtures draining process? Definitely, these are caused by a blocked drain. A blocked drain is a type of drain that is used to remove water and other liquids from the ground. Block drains are usually made from concrete or stone blocks, hence the name. This can certainly cause substantial interior damage to your house if not addressed or repaired. Are you familiar with a sewer or storm drain? A sewer or storm drain is essential to a home’s plumbing system. Most Australian families are unfamiliar with this since this drain is not visible to every household. This is the main reason why several homeowners don’t give extra attention to their sewer pipes until there is an issue.Keep in mind that a blocked drain is typically found on a property with a basement or ground floor, which is mainly connected to the sewer system. So, if you’re having a hard time figuring out the main cause of your blocked drain, here’s a complete guide on easily identifying it before you call a professional plumber near you.",
+        "author": [
+            {
+                "written-title": "Guide To Blocked Drain Cleaning: Identify, Unclog, Prevent",
+                "details": "You’re getting exhausted dealing with home sink, toilet,"
+            },
+            {
+                "name": "Eleyas Hossain",
+                "date": "05-11-2022"
+            }
+        ]
+    },
+    {
+        "service_id": "15",
+        "title": "Common Causes Of Home Flooding",
+        "img": "https://i.ibb.co/9svYD4Y/home-improvement.jpg",
+        "price": "90.00",
+        "rating": "4.0",
+        "description": "There are many issues that come with owning a home, and maintenance is key in preventing a host of problematic issues. Unfortunately, one of the risks you have to deal with is flooding. There are various flood restoration processes, but the preventive measures will always be better. Here are some of the common causes of flooding in your home. Building your home on an unfavorable site is one of the major causes of basement floods. Another cause is improper grading. Houses should be built in an area that slopes away from them so that accumulated water can flow away.Another leading cause of flooded homes is poor drainage systems and maintenance. The blocking of your sinks, toilets, and showers can adversely affect your plumbing. When your home’s drainage system is clogged up, the walls, house flooring, and fixtures are exposed to major water damage. Ensure you inspect and unclog your drains regularly. If the foundation of your home has cracking or flaws, water can seep in through your home floors. The foundation of your home will always be on the ground, irrespective of over-saturation with water from melted ice, storms, and other precipitation. If the foundation of your home is solid, your home will be fine and unaffected. However, if your home rests on a subpar foundation, you will need to examine and repair it in order to prevent flooding. You can visit the Moisture Master Pros website to hire professional water damage restoration specialists that could help to inspect and resolve your flood problem.",
+        "author": [
+            {
+                "written-title": "Common Causes Of Home Flooding",
+                "details": "There are many issues that come with owning a home,"
+            },
+            {
+                "name": "Azmol Fuad",
+                "date": "07-11-2022"
+            }
+        ]
+    },
+    {
+        "service_id": "13",
+        "title": "Leaky Pipes: What Kinds Of Household Pests Are Attracted To Them?",
+        "img": "https://i.ibb.co/M1Wjbcf/leaky-plumbing-pipes.jpg",
+        "price": "230.00",
+        "rating": "4.5",
+        "description": "There are various ways that households may attract common pests, but most commonly, leaky plumbing pipes are the cause. Any leaky water source in your home becomes the ideal playground for rodents and insects as it offers the perfect place to build their nests. This is still the case even if you make it a point to remove all standing water sources in your household, such as emptying the sink of water after use! Rodents and certain types of insects are wired to find the different sources of water in your home. Usually, this entails looking at different aspects of your plumbing, such as your sewer lines, garden hose, or even sink faucets. Most homeowners aren’t aware that their homes have suffered a plumbing leak or problem until the pests present to make themselves known. But, unfortunately, certain plumbing leaks enable pests to invade a home and breed in virtually no time at all! Though leaks can affect any number of locations within your plumbing systems, the most common places are those easily seen by the untrained eye. Therefore, make it a point to routinely check your household for plumbing leaks as it will help eliminate a rodent or insect infestation. Of course, seeing a lone insect enjoying the remains of your standing bathwater isn’t necessarily a sign that you have an infestation on your hands. However, if you discover that insects are regularly back to the same spot, it could signal trouble. Of course, the most accessible leaks to identify are the ones you can see, but never discount the possibility of an unseen leak occurring.",
+        "author": [
+            {
+                "written-title": "Leaky Pipes: What Kinds Of Household Pests Are Attracted To Them?",
+                "details": "There are various ways that households may attract common pests,"
+            },
+            {
+                "name": "Nazimuddin Raju",
+                "date": "09-11-2022"
+            }
+        ]
+    },
+    {
+        "service_id": "16",
+        "title": "How Do You Find A Water Leak In Your House?",
+        "img": "https://i.ibb.co/Jdx2dWp/how-do-you-find-a-water-leak.jpg",
+        "price": "130.00",
+        "rating": "4.5",
+        "description": "There are several ways to detect water leaks. You can use a water meter. The water meter can be located indoors or outdoors. To find out if there is a leak, turn off all water sources inside your house and check the meter. If the number on the meter is moving, the leak may be in the indoor plumbing system. You can also try contacting a plumber to help you detect the leak. The easiest way to detect a water leak is to inspect the walls. Water leaking from pipes behind walls will cause discoloration. You can even notice small spots or bubbles on the wall surface. Most leaks occur in the upstairs bathrooms. Pulling out carpeting can also help you locate the source of the leak. But, it is not always easy to detect water leaks. Therefore, it is essential to consult a professional inspector to perform an inspection of the affected area. If you cannot detect water leaks using a water meter, you can try checking for water damage. Some signs to look for include water damage, mold growth, and mildew smell. Look in areas with a high risk of water leaks, such as under the sink, around the toilet, and behind water-using appliances. If none of these tips work, you may need to contact a plumber to identify the source of the leak. With help from a plumber in Canberra, you should be able to get the leak issue resolved.  If you cannot identify a water leak, you can check the monthly utility bills for a few clues. For example, if your water bill is rising too rapidly, or if you are using more water than you used before, it is likely a leak. Wait for 30 minutes before checking your meter and see if the dials move. If they do, there is a leak somewhere in your house.  While the symptoms of a water leak may appear relatively minor, if left untreated, the problem can have major implications. It can cause unsightly water stains, bubbled wall paint, and impaired structural integrity. In addition, it can lead to toxic mold growth, which poses a health risk. Detecting the leak as early as possible is crucial. But if you don’t know how to do it, you could spend the rest of your life worrying about the consequences.",
+        "author": [
+            {
+                "written-title": "How Do You Find A Water Leak In Your House?",
+                "details": "There are several ways to detect water leaks."
+            },
+            {
+                "name": "Emran Hossain",
+                "date": "09-11-2022"
+            }
+        ]
+    },
+    {
+        "service_id": "17",
+        "title": "Services That Local Plumbers In Fort Lauderdale Can Handle For You",
+        "img": "https://i.ibb.co/PQqNyTv/plumbing-services.jpg",
+        "price": "170.00",
+        "rating": "4.5",
+        "description": "Located on the southeastern coast of Florida, Fort Lauderdale city has an estimated population of 182,760. Plumbing issues are common, and most people hire plumbing services around once every three years. There are various plumbing issues like dripping faucets, drain blockages, water heater problems that need plumbing professional service. If you are confused about when you should call plumbers, here is the list of services that local plumbers in Fort Lauderdale can handle for you. The plumbing services can be divided into residential plumbing and Commercial Plumbing. Experts mention average household leaks lead to 10,000 gallons of water wasted every year. Every person must prevent water wastage and take steps to conserve water. The City of Fort Lauderdale has recently announced a water and sewer charges hike. The city administration has increased fixed water connection charges and water commodity charges by 7%. If you have noticed an increase in your water bills for no reason, there are chances of undiscovered leaks in your home. You should call local plumbers in Fort Lauderdale for leak detection in that scenario. The plumbers will check your plumbing system for leaks and fix the leakage.",
+        "author": [
+            {
+                "written-title": "Services That Local Plumbers In Fort Lauderdale Can Handle For You",
+                "details": "Located on the southeastern coast of Florida, Fort Lauderdale city has an estimated population"
+            },
+            {
+                "name": "Asma Akter",
+                "date": "02-11-2022"
             }
         ]
     }

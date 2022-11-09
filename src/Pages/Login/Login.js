@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Lottie from "lottie-react";
 import loginLottie from '../../assets/38435-register.json'
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const Login = () => {
+    const {login} = useContext(AuthContext);
 
     const handleLogin = event => {
         event.preventDefault();
+        const form = event.target;
+        const email = form.email.value;
+        const password = form.password.value;
 
+        login(email, password)
+        .then( result =>{
+            const user = result.user;
+            console.log(user);
+        })
+        .catch(error => console.error(error));
     }
 
     return (
@@ -35,7 +46,7 @@ const Login = () => {
                             <input className="btn btn-info" type="submit" value="Login" />
                         </div>
                     </form>
-                    <p className='text-center'>New to Plumber Boy <Link className='text-info font-bold' to='/signUp'>Sign Up</Link></p>
+                    <p className='text-center'>Don't have an account in Plumber-Boy? <Link className='text-info font-bold' to='/signUp'>Sign Up</Link></p>
                 </div>
             </div>
         </div>

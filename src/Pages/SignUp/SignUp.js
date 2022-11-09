@@ -54,7 +54,7 @@ const SignUp = () => {
                             <input className="btn btn-info" type="submit" value="Sign Up" />
                         </div>
                     </form>
-                    <p className='text-center'>Already have an account? <Link className='text-info font-bold' to='/login'>Login</Link></p>
+                    <p className='text-center'>Already have an account in Plumber-Boy? <Link className='text-info font-bold' to='/login'>Login</Link></p>
                 </div>
             </div>
         </div>

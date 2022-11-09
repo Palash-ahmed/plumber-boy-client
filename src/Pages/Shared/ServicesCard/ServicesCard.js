@@ -1,16 +1,21 @@
 import React from 'react';
 
-const ServicesCard = ({service}) => {
-    const {img, price, title} = service;
+const ServicesCard = ({ service }) => {
+    const { img, price, title, description } = service;
     return (
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <div className="card card-compact w-96 bg-base-100 shadow-xl my-4">
             <figure><img src={img} alt="" /></figure>
             <div className="card-body">
-                <h2 className="card-title">{title}</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <h2 className="card-title text-info">{title}</h2>
+                <p>{
+                    description.length > 100 ?
+                        <>{description.slice(0, 100) + '...'}</>
+                        :
+                        description
+                }</p>
                 <p className='text-info font-bold text-xl'>Price: ${price}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="btn btn-info">Details</button>
                 </div>
             </div>
         </div>

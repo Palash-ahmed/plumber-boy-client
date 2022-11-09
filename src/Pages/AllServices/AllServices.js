@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import ServicesCard from '../../Shared/ServicesCard/ServicesCard';
+import ServicesCard from '../Shared/ServicesCard/ServicesCard';
 
-const PlumberService = () => {
+const AllServices = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/homePage')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);
     return (
-        <div>
+        <div className='my-24'>
             <div className='text-center my-16'>
+                <h1 className="text-xl font-semibold text-info">CATEGORIES</h1>
                 <h1 className="text-5xl font-bold my-5">Check Our Plumbing Services</h1>
+                <p className='w-9/12 mx-auto text-xl'>PlumberBoy Plumbing, Heating & Air Conditioning, Inc. offers honest and effective solutions for all plumbing and HVAC needs. Customers can expect solid, efficient plumbing services for everything from installation issues to intensive repair.</p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {
@@ -22,11 +23,8 @@ const PlumberService = () => {
                     ></ServicesCard>)
                 }
             </div>
-            <div className="card-actions justify-center my-20">
-                <Link to='/allservices'><button className="btn btn-info text-white font-bold">See All Services</button></Link>
-            </div>
         </div>
     );
 };
 
-export default PlumberService;
+export default AllServices;
