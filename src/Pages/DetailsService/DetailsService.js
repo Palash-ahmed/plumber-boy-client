@@ -6,10 +6,10 @@ import loginLottie from '../../assets/38435-register.json'
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const DetailsService = () => {
-    const { img, price, title, description, rating, _id} = useLoaderData();
+    const { img, price, title, description, rating, _id } = useLoaderData();
     const { user } = useContext(AuthContext);
 
-    const handleComments = event =>{
+    const handleComments = event => {
         event.preventDefault();
         const form = event.target;
         const name = `${form.firstName.value} ${form.lastName.value}`;
@@ -26,22 +26,23 @@ const DetailsService = () => {
             phone,
             message
         }
-        fetch('http://localhost:5000/reviews',{
+        fetch('http://localhost:5000/reviews', {
             method: 'POST',
             headers: {
-                'content-type' : 'application/json'
+                'content-type': 'application/json',
+                authorization: `Bearer ${localStorage.getItem('plumboy-token')}`
             },
             body: JSON.stringify(review)
         })
-        .then(res => res.json())
-        .then(data => {
-            console.log(data)
-            if(data.acknowledged){
-                alert('Thanks for your Comment')
-                form.reset();
-            }
-        })
-        .catch(error => console.error(error));
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                if (data.acknowledged) {
+                    alert('Thanks for your Comment')
+                    form.reset();
+                }
+            })
+            .catch(error => console.error(error));
     }
 
 
@@ -82,7 +83,7 @@ const DetailsService = () => {
                         <div className="card flex-shrink-0 w-full max-w-lg py-16">
                             <form onSubmit={handleComments} className="card-body">
                                 <div className="form-control">
-                                    <input name='firstName' type="text" placeholder="First Name" className="input input-bordered" required/>
+                                    <input name='firstName' type="text" placeholder="First Name" className="input input-bordered" required />
                                 </div>
                                 <div className="form-control">
                                     <input name='lastName' type="text" placeholder="Last Name" className="input input-bordered" />

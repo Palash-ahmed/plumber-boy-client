@@ -3,25 +3,38 @@ import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import ReviewInfo from '../ReviewInfo/ReviewInfo';
 
 const Reviews = () => {
-    const { user } = useContext(AuthContext);
+    const { user, logOut } = useContext(AuthContext);
     const [reviews, setReviews] = useState([]);
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/reviews?email=${user?.email}`)
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, [user?.email])
+        fetch(`http://localhost:5000/reviews?email=${user?.email}`, {
+            headers: {
+                authorization: `Bearer ${localStorage.getItem('plumboy-token')}`
+            }
+        })
+            .then(res => {
+                if(res.status === 401 || res.status === 403){
+                   return logOut();
+                }
+                return res.json();
+            })
+            .then(data => {
+                setReviews(data);
+            })
+    }, [user?.email, logOut])
 
     const handleDelete = id =>{
         const proceed = window.confirm('Are you sure, You want to delete this review?')
         if(proceed){
             fetch(`http://localhost:5000/reviews/${id}`,{
-                method: 'DELETE'
+                method: 'DELETE',
+                headers: {
+                    authorization: `Bearer ${localStorage.getItem('plumboy-token')}`
+                }
             })
             .then(res => res.json())
             .then(data => {
-                console.log(data);
                 if(data.deletedCount > 0){
                     alert('Deleted Successfully');
                     const remaining = reviews.filter(reviewers => reviewers._id !== id);

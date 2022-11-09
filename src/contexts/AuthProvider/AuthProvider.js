@@ -20,6 +20,8 @@ const AuthProvider = ({children}) => {
         return signInWithEmailAndPassword(auth, email, password);
     }
     const logOut = () =>{
+        setLoading(true);
+        localStorage.removeItem('plumboy-token');
         return signOut(auth);
     }
 
