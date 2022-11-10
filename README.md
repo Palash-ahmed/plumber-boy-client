@@ -1,3 +1,9 @@
+<h1>Client Side Code Github Repository Link:</h1> https://github.com/Porgramming-Hero-web-course/b6a11-service-review-client-side-Palash-ahmed.git
+
+<h1>Server Side Code Github Repository Link:</h1> https://github.com/Porgramming-Hero-web-course/b6a11-service-review-server-side-Palash-ahmed.git
+
+<h1>Live Website Link:</h1> https://plumber-boy-fef9f.web.app
+
 <h1>Do this at first</h1>
 
 <ol>
@@ -7,7 +13,17 @@
     <li>Install firebase React router dom</li>
     <li>Install TailwindCss and DaisyUI</li>
     <li>Make sure to import TailwindCSS css in the index.js file</li>
-    <li>Use JWT </li>
+    <li>npm install firebase </li>
+    <li>Server Side npm install cors </li>
+    <li>npm install dotenv </li>
+    <li>npm install Mongodb </li>
+    <li>Use imgbb for Photo Link </li>
+    <li>Use Node Mongo db crud </li>
+    <li>Firebase Init </li>
+    <li>npm run build </li>
+    <li>firebase deploy </li>
+    <li>Add vercel Config </li>
+    <li>add npm run build package.json </li>
 </ol>
 
 
