@@ -4,11 +4,13 @@ import loginLottie from '../../assets/38435-register.json'
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';
+import useTitle from '../../hooks/useTitle';
 
 const Login = () => {
-    const {login} = useContext(AuthContext);
+    const { login } = useContext(AuthContext);
     const location = useLocation();
     const navigate = useNavigate();
+    useTitle('Login')
 
     const from = location.state?.from?.pathname || '/';
 
@@ -19,36 +21,36 @@ const Login = () => {
         const password = form.password.value;
 
         login(email, password)
-        .then( result =>{
-            const user = result.user;
-            
-            const currentUser = {
-                email: user.email
-            }
-            console.log(currentUser);
-            // jwt Token
-            fetch('http://localhost:5000/jwt',{
-                method: 'POST',
-                headers: {
-                    'content-type': 'application/json'
-                },
-                body: JSON.stringify(currentUser)
+            .then(result => {
+                const user = result.user;
+
+                const currentUser = {
+                    email: user.email
+                }
+                console.log(currentUser);
+                // jwt Token
+                fetch('http://localhost:5000/jwt', {
+                    method: 'POST',
+                    headers: {
+                        'content-type': 'application/json'
+                    },
+                    body: JSON.stringify(currentUser)
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log(data);
+                        localStorage.setItem('plumboy-token', data.token);
+                        navigate(from, { replace: true });
+                    });
             })
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
-                localStorage.setItem('plumboy-token', data.token);
-                navigate(from, {replace: true});
-            });
-        })
-        .catch(error => console.error(error));
+            .catch(error => console.error(error));
     }
 
     return (
         <div className="hero w-full my-24">
             <div className="hero-content grid md:grid-cols-2 flex-col lg:flex-row">
                 <div className="ml-24">
-                    <Lottie animationData={loginLottie} loop={true}/>
+                    <Lottie animationData={loginLottie} loop={true} />
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl ml-24 py-16">
                     <h1 className="text-5xl text-center font-bold">Login</h1>

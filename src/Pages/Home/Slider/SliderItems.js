@@ -1,8 +1,10 @@
 import React from 'react';
+import useTitle from '../../../hooks/useTitle';
 import './SliderItems.css'
 
 const SliderItems = ({slide}) => {
     const {sliderImage, id, prev, next} = slide;
+    useTitle('Slider-Items');
     return (
         <div id={`slide${id}`} className="carousel-item relative w-full">
             <div className='slider-image'>

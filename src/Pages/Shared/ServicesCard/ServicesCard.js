@@ -1,9 +1,12 @@
 import React from 'react';
 import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import useTitle from '../../../hooks/useTitle';
 
 const ServicesCard = ({ service }) => {
     const { img, price, title, description, rating, _id } = service;
+    useTitle('Service')
+
     return (
         <div className="card card-compact w-96 bg-base-100 shadow-xl my-4">
             <figure><img src={img} alt="" /></figure>

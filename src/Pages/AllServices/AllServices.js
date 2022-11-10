@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import useTitle from '../../hooks/useTitle';
 import ServicesCard from '../Shared/ServicesCard/ServicesCard';
 
 const AllServices = () => {
     const [services, setServices] = useState([]);
+    useTitle('Services');
 
     
     useEffect(() => {

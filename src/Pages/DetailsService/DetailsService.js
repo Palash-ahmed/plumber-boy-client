@@ -5,10 +5,12 @@ import Lottie from "lottie-react";
 import loginLottie from '../../assets/38435-register.json'
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import toast from 'react-hot-toast';
+import useTitle from '../../hooks/useTitle';
 
 const DetailsService = () => {
     const { img, price, title, description, rating, _id } = useLoaderData();
     const { user } = useContext(AuthContext);
+    useTitle('Service-Details')
 
     const handleComments = event => {
         event.preventDefault();

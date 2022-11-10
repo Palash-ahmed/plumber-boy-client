@@ -2,6 +2,7 @@ import React from 'react';
 import slider1 from '../../../assets/Slider/slider-1.jpeg'
 import slider2 from '../../../assets/Slider/slider-2.jpg'
 import slider3 from '../../../assets/Slider/slider-3.jpg'
+import useTitle from '../../../hooks/useTitle';
 import SliderItems from './SliderItems';
 
 
@@ -27,6 +28,7 @@ const sliderData = [
 ]
 
 const Slider = () => {
+    useTitle('Slider');
     return (
         <div className="carousel w-full py-6">
             {

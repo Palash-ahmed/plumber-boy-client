@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from '../../../assets/logo/logo.png';
 import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
+import useTitle from '../../../hooks/useTitle';
 
 const Footer = () => {
+    useTitle('Footer');
     return (
         <footer className="footer p-24 bg-neutral text-white mt-20 rounded-t-lg">
             <div>

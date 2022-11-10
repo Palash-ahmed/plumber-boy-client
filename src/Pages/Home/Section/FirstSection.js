@@ -2,9 +2,11 @@ import React from 'react';
 import firstSection from '../../../assets/SectionImage/First-Section.png';
 import secondSection from '../../../assets/SectionImage/secondSection.jpeg';
 import { BiCheck } from "react-icons/bi";
+import useTitle from '../../../hooks/useTitle';
 
 
 const FirstSection = () => {
+    useTitle('Section');
     return (
         <div>
             <section>

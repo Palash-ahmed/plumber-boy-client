@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { FaStar, FaStarHalfAlt, FaUser } from 'react-icons/fa';
+import useTitle from '../../hooks/useTitle';
 
 const ReviewInfo = ({ review, handleDelete }) => {
 
     const {_id, reviewer, email, message, rating, reviewId } = review;
     const [reviewService, setReviewService] = useState({});
-
+    useTitle('Review-Info')
     useEffect(()=>{
         fetch(`http://localhost:5000/services/${reviewId}`)
         .then(res => res.json())

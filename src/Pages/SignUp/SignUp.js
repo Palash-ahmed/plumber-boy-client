@@ -3,10 +3,13 @@ import Lottie from "lottie-react";
 import loginLottie from '../../assets/38435-register.json'
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
+import { setToken } from '../../utilities/utilities';
+import useTitle from '../../hooks/useTitle';
 
 const SignUp = () => {
 
     const {createUser} = useContext(AuthContext);
+    useTitle('SignUp');
 
 
     const handleSignUp = event => {
@@ -19,6 +22,7 @@ const SignUp = () => {
         .then(result => {
             const user = result.user;
             console.log(user);
+            setToken(user);
         })
         .catch(err => console.error(err));
     }

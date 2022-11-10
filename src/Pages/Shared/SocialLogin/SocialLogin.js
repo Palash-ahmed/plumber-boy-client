@@ -1,32 +1,19 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
+import useTitle from '../../../hooks/useTitle';
+import { setToken } from '../../../utilities/utilities';
 
 const SocialLogin = () => {
 
     const {googleSignIn} = useContext(AuthContext);
+    useTitle('Google-Login');
 
     const handleGoogleSignIn = () =>{
         googleSignIn()
         .then(result =>{
             const user = result.user;
             console.log(user);
-            const currentUser ={
-                email: user.email
-            }
-
-            fetch('http://localhost:5000/jwt',{
-                method: 'POST',
-                headers: {
-                    'content-type': 'application/json'
-                },
-                body: JSON.stringify(currentUser)
-            })
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
-                localStorage.setItem('plumboy-token', data.token);
-                
-            });
+            setToken(user);
         })
         .catch(error => console.error(error));
     }

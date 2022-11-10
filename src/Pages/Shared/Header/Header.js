@@ -3,10 +3,12 @@ import { FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo/header-logo.png';
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
+import useTitle from '../../../hooks/useTitle';
 
 const Header = () => {
 
     const { user, logOut } = useContext(AuthContext);
+    useTitle('Header');
 
     const handleLogOut = () => {
         logOut()
@@ -17,7 +19,7 @@ const Header = () => {
     const menuBar = <>
         <li className='font-bold text-xl'><Link to='/'>Home</Link></li>
         <li className='font-bold text-xl'><Link to='/allservices'>Services</Link></li>
-        <li className='font-bold text-xl'><Link to='/'>Blog</Link></li>
+        <li className='font-bold text-xl'><Link to='/blog'>Blog</Link></li>
         {
             user?.email ?
                 <>
