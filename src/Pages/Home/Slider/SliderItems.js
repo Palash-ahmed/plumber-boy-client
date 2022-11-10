@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useTitle from '../../../hooks/useTitle';
 import './SliderItems.css'
 
@@ -18,7 +19,7 @@ const SliderItems = ({slide}) => {
                 </h1>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 w-1/2 left-24 top-3/4">
-                <button className="btn btn-info text-white text-xl px-5">Our Services</button>
+                <Link to='/allservices' className="btn btn-info text-white text-xl px-5">Our Services</Link>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href={`#slide${prev}`} className="btn btn-circle">❮</a>

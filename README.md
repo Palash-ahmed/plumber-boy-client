@@ -1,6 +1,30 @@
+<h1>Do this at first</h1>
+
+<ol>
+    <li>Create firebase app</li>
+    <li>Get firebase configuration inside firebase.config.js</li>
+    <li>Create a React App</li>
+    <li>Install firebase React router dom</li>
+    <li>Install TailwindCss and DaisyUI</li>
+    <li>Make sure to import TailwindCSS css in the index.js file</li>
+    <li>Use JWT </li>
+</ol>
+
+
+
+<h1>Install</h1>
+
+<ol>
+    <li>Install react photo view </li>
+    <li>lottie react install</li>
+    <li>Install React-hot-toast </li>
+    <li>Install React-icons</li>
+    <li>Install React-icons</li>
+</ol>
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was Tailwind with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

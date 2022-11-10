@@ -7,7 +7,7 @@ const PlumberService = () => {
     const [services, setServices] = useState([]);
     useTitle('Plumber-Service');
     useEffect(() => {
-        fetch('http://localhost:5000/homePage')
+        fetch('https://plumber-boy-server.vercel.app/homePage')
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);

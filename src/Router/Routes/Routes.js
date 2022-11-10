@@ -32,7 +32,7 @@ import PrivateRoute from "../PrivateRoute/PrivateRoute";
         },
         {
           path: '/detailsservice/:id',
-          loader: ({params}) => fetch(`http://localhost:5000/services/${params.id}`),
+          loader: ({params}) => fetch(`https://plumber-boy-server.vercel.app/services/${params.id}`),
           element: <PrivateRoute><DetailsService></DetailsService></PrivateRoute>
         },
         {
