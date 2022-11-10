@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo/header-logo.png';
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
@@ -14,24 +15,24 @@ const Header = () => {
     }
 
     const menuBar = <>
-        <li className='font-bold'><Link to='/'>Home</Link></li>
-        <li className='font-bold'><Link to='/'>Services</Link></li>
-        <li className='font-bold'><Link to='/'>Blog</Link></li>
+        <li className='font-bold text-xl'><Link to='/'>Home</Link></li>
+        <li className='font-bold text-xl'><Link to='/allservices'>Services</Link></li>
+        <li className='font-bold text-xl'><Link to='/'>Blog</Link></li>
         {
             user?.email ?
                 <>
-                    <li className='font-bold'><Link to='/reviews'>Reviews</Link></li>
-                    <li className='font-bold'>
+                    <li className='font-bold text-xl'><Link to='/reviews'>Reviews</Link></li>
+                    <li className='font-bold text-xl'>
                         <button onClick={handleLogOut} className='btn-ghost'>Log Out</button>
                     </li>
                 </>
                 :
-                <li className='font-bold'><Link to='/login'>Login</Link></li>
+                <li className='font-bold text-xl'><Link to='/login'>Login</Link></li>
 
         }
     </>
     return (
-        <div className="navbar mb-5">
+        <div className="navbar  bg-base-200 p-4 rounded-b-lg mb-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -42,8 +43,8 @@ const Header = () => {
                     </ul>
                 </div>
                 <Link to='/' className="flex normal-case text-xl">
-                    <img src={logo} alt="" />
-                    <h1 className='text-4xl ml-4 pt-4'>PlumberBoy</h1>
+                    <img className='w-20 h-20' src={logo} alt="" />
+                    <h1 className='text-4xl ml-4 pt-4 font-bold text-red-600'>Plumber<span className='text-green-600 font-bold'>Boy</span></h1>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -52,7 +53,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Get started</a>
+            <p><FaUser className='w-14 h-14 mr-6 rounded-full ring ring-info ring-offset-base-100 ring-offset-2'></FaUser></p>
             </div>
         </div>
     );

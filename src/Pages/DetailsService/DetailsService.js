@@ -4,6 +4,7 @@ import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
 import Lottie from "lottie-react";
 import loginLottie from '../../assets/38435-register.json'
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
+import toast from 'react-hot-toast';
 
 const DetailsService = () => {
     const { img, price, title, description, rating, _id } = useLoaderData();
@@ -38,7 +39,7 @@ const DetailsService = () => {
             .then(data => {
                 console.log(data)
                 if (data.acknowledged) {
-                    alert('Thanks for your Comment')
+                    toast.success('Thanks for your Review')
                     form.reset();
                 }
             })
@@ -68,10 +69,6 @@ const DetailsService = () => {
                         <p className='w-5/6 text-xl mx-auto'>{description}</p>
                     </div>
                 </div>
-            </section>
-
-            <section>
-
             </section>
 
             <section>

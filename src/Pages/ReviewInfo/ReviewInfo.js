@@ -15,6 +15,7 @@ const ReviewInfo = ({ review, handleDelete }) => {
     
 
     return (
+        
         <div className="card w-96 bg-base-100 shadow-xl">
             <div className='flex font-bold mt-8 ml-12'>
                 <p><FaUser className='w-14 h-14 mr-6 rounded-full ring ring-info ring-offset-base-100 ring-offset-2'></FaUser></p>

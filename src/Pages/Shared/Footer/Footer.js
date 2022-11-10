@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="footer p-24 bg-neutral text-white">
+        <footer className="footer p-24 bg-neutral text-white mt-20 rounded-t-lg">
             <div>
                 <img className='h-24 w-24' src={logo} alt="" />
                 <p className='text-lg font-bold'>Plumber Boy Services Elementor <br /> Template Kit.  Powered by Design8. <br /> All rights reserved.</p>

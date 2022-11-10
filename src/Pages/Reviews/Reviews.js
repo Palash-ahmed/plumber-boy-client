@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
+import toast from 'react-hot-toast';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import ReviewInfo from '../ReviewInfo/ReviewInfo';
 
@@ -14,8 +15,8 @@ const Reviews = () => {
             }
         })
             .then(res => {
-                if(res.status === 401 || res.status === 403){
-                   return logOut();
+                if (res.status === 401 || res.status === 403) {
+                    return logOut();
                 }
                 return res.json();
             })
@@ -24,23 +25,23 @@ const Reviews = () => {
             })
     }, [user?.email, logOut])
 
-    const handleDelete = id =>{
+    const handleDelete = id => {
         const proceed = window.confirm('Are you sure, You want to delete this review?')
-        if(proceed){
-            fetch(`http://localhost:5000/reviews/${id}`,{
+        if (proceed) {
+            fetch(`http://localhost:5000/reviews/${id}`, {
                 method: 'DELETE',
                 headers: {
                     authorization: `Bearer ${localStorage.getItem('plumboy-token')}`
                 }
             })
-            .then(res => res.json())
-            .then(data => {
-                if(data.deletedCount > 0){
-                    alert('Deleted Successfully');
-                    const remaining = reviews.filter(reviewers => reviewers._id !== id);
-                    setReviews(remaining);
-                }
-            })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.deletedCount > 0) {
+                        toast.success('Deleted Successfully')
+                        const remaining = reviews.filter(reviewers => reviewers._id !== id);
+                        setReviews(remaining);
+                    }
+                })
         }
 
     }
