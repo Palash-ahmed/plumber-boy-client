@@ -15,8 +15,8 @@ const Reviews = () => {
             }
         })
             .then(res => {
-                if (res.status === 401 || res.status === 403) {
-                    return logOut();
+                if(res.status === 401 || res.status === 403){
+                   return logOut();
                 }
                 return res.json();
             })
@@ -25,29 +25,28 @@ const Reviews = () => {
             })
     }, [user?.email, logOut])
 
-    const handleDelete = id => {
+    const handleDelete = id =>{
         const proceed = window.confirm('Are you sure, You want to delete this review?')
-        if (proceed) {
-            fetch(`http://localhost:5000/reviews/${id}`, {
+        if(proceed){
+            fetch(`http://localhost:5000/reviews/${id}`,{
                 method: 'DELETE',
                 headers: {
                     authorization: `Bearer ${localStorage.getItem('plumboy-token')}`
                 }
             })
-                .then(res => res.json())
-                .then(data => {
-                    if (data.deletedCount > 0) {
-                        toast.success('Deleted Successfully')
-                        const remaining = reviews.filter(reviewers => reviewers._id !== id);
-                        setReviews(remaining);
-                    }
-                })
+            .then(res => res.json())
+            .then(data => {
+                if(data.deletedCount > 0){
+                    toast.success('Deleted Successfully')
+                    const remaining = reviews.filter(reviewers => reviewers._id !== id);
+                    setReviews(remaining);
+                }
+            })
         }
 
     }
 
     return (
-        <div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {
                     reviews.map(review => <ReviewInfo
@@ -57,7 +56,6 @@ const Reviews = () => {
                     ></ReviewInfo>)
                 }
             </div>
-        </div>
     );
 };
 

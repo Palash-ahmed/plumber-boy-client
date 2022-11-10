@@ -3,6 +3,7 @@ import Lottie from "lottie-react";
 import loginLottie from '../../assets/38435-register.json'
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
+import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
 const Login = () => {
     const {login} = useContext(AuthContext);
@@ -38,7 +39,7 @@ const Login = () => {
                 console.log(data);
                 localStorage.setItem('plumboy-token', data.token);
                 navigate(from, {replace: true});
-            })
+            });
         })
         .catch(error => console.error(error));
     }
@@ -69,6 +70,7 @@ const Login = () => {
                         </div>
                     </form>
                     <p className='text-center'>Don't have an account in Plumber-Boy? <Link className='text-info font-bold' to='/signUp'>Sign Up</Link></p>
+                    <SocialLogin></SocialLogin>
                 </div>
             </div>
         </div>
